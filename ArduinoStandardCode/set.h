@@ -21,7 +21,7 @@ short setFunction(int function, int board) {
       else if (valueInt == Input_pullup)
         pinMode(pin, INPUT_PULLUP);
       else
-        return ValueWrong;
+        return ValueNotSupported;
 
       return RequestCompleted;
     }

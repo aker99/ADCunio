@@ -10,7 +10,7 @@ StaticJsonDocument<200> commandJson;
 #include "set.h"
 
 void setup() {
-  SerialComm.begin(9600);
+  SerialComm.begin(115200);
 }
 
 void serialEvent() {
@@ -55,4 +55,5 @@ short triggerFunction(int type, int function, int board) {
     return setFunction(function, board);
   }
 }
+
 void loop(){}

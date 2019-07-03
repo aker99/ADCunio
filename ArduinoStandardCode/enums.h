@@ -29,7 +29,7 @@ enum set {  //function list
   setMAX
 };
 enum pinmode {
-  Input,
+  Input=1,
   Output,
   Input_pullup
 };
